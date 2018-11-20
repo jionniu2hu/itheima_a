@@ -1,0 +1,50 @@
+/* 公用的css */
+body{
+    font-size: 14px;
+    color: #333;
+}
+a{
+    color: #333;
+}
+a:hover{
+    color: #333;
+    text-decoration: none;
+}
+/* 顶部通栏 */
+.heima_topBar{
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    z-index: 1001;
+}
+.heima_topBar .row{display: flex;}
+.heima_topBar a:last-of-type{color: #666;}
+.heima_topBar a:last-of-type:hover{color: #666;}
+.heima_topBar .heima_icon_phoneApp{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/phone_app.png) no-repeat;
+    background-size: 20px 20px;
+}
+.heima_topBar .heima_icon_phone{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/phone.png) no-repeat;
+    background-size: 16px 16px;
+}
+.heima_topBar .heima_icon_down{
+    /* margin-top: 12px; */
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/down.png) no-repeat;
+    background-size: 14px 14px;
+}
+.heima_topBar > .container > .row > div{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
