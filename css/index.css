@@ -48,3 +48,34 @@ a:hover{
     line-height: 40px;
     text-align: center;
 }
+/* 导航栏 */
+.heima_nav .navbar-nav .nav-item.active{
+    border-bottom: 3px solid #e92322;
+}
+.heima_nav .navbar-collapse ul:last-of-type{
+    position: absolute;
+    right: 0px;
+}
+
+/* 信息模块 */
+.heima_info{
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.heima_info .col-md-4{padding: 10px;}
+.heima_info .madia-left{display: inline-block;}
+.heima_info .madia-body{display: inline-block;}
+
+/* 轮播图 */
+.heima_banner .container-fluid{
+    padding: 0;
+}
+.heima_banner .container-fluid .carousel-inner .carousel-item{
+    width: 100%;
+    height: 410px;
+}
+.heima_banner .container-fluid .carousel-inner .carousel-item img{
+    position: relative;
+    width: 100%;
+    height: 410px;
+}
