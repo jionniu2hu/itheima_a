@@ -32,7 +32,7 @@ a:hover{
     display: inline-block;
     width: 16px;
     height: 16px;
-    background: url(../images/phone.png) no-repeat;
+    background: url(../images/number.png) no-repeat;
     background-size: 16px 16px;
 }
 .heima_topBar .heima_icon_down{
@@ -40,7 +40,7 @@ a:hover{
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url(../images/down.png) no-repeat;
+    background: url(../images/drop_down.png) no-repeat;
     background-size: 14px 14px;
 }
 .heima_topBar > .container > .row > div{
@@ -57,18 +57,9 @@ a:hover{
     right: 0px;
 }
 
-/* 信息模块 */
-.heima_info{
-    padding: 50px;
-    border-bottom: 1px solid #ccc;
-}
-.heima_info .col-md-4{padding: 10px;}
-.heima_info .madia-left{display: inline-block;}
-.heima_info .madia-body{display: inline-block;}
-
 /* 轮播图 */
 .heima_banner .container-fluid{
-    padding: 0;
+    display: block;
 }
 .heima_banner .container-fluid .carousel-inner .carousel-item{
     width: 100%;
@@ -78,4 +69,48 @@ a:hover{
     position: relative;
     width: 100%;
     height: 410px;
+}
+
+/* 信息模块 */
+.heima_info{
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.heima_info .col-md-4{
+    padding: 10px;
+}
+.heima_info .madia-left{
+    display: inline-block;
+}
+.heima_info .madia-body{
+    display: inline-block;
+}
+.heima_icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.heima_info .heima_icon-1{
+    background: url(../images/个人.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-2{
+    background: url(../images/信息.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-3{
+    background: url(../images/地址.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-4{
+    background: url(../images/时间.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-5{
+    background: url(../images/看过.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-6{
+    background: url(../images/购物.png) no-repeat;
+    background-size: 50px 50px;
 }
