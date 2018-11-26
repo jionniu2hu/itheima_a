@@ -228,10 +228,6 @@ a:hover{
     box-shadow: 2px 2px 3px 1px #6c757d;
     color: #666;
 }
-.heima_product_box.active{
-    background: #dc3545;
-    color: #fff;
-}
 .heima_product_box .left h3{
     width: 100%;
     font-size: 16px;
@@ -346,12 +342,11 @@ a:hover{
     background: url(../images/004-pie-chart-1.png) no-repeat;
     background-size: 50px 50px;
 }
-/* 新闻模块tab panes */
 .heima_news .tab-pane > ul{padding: 0;}
 .heima_news .tab-pane > ul>li{padding: 10px;}
 
 
-/* footer模块  合作伙伴 */
+/* footer模块*/
 .heima_partner{
     background: #f5f5f5;
     padding: 20px 0;
