@@ -222,10 +222,9 @@ a:hover{
 }
 /* 产品盒子 */
 .heima_product_box{
-    margin:  0 60px 30px 0;
+    margin:  0 80px 50px;
     padding: 0;
-    background: #fff;
-    box-shadow: 2px 2px 3px 1px #6c757d;
+    box-shadow: 3px 3px 7px 1px #6c757d;
     color: #666;
 }
 .heima_product_box .left h3{
@@ -245,43 +244,16 @@ a:hover{
     overflow: hidden;
 }
 .heima_product_box .right{
-    margin-left: 8px;
+    margin-left: 10px;
     height: 100%;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 10px ;
     padding-right: 0;
     border-left: 1px dashed #ccc;
-    font-size: 12px;
-}
-.heima_product_box .right::before,
-.heima_product_box .right::after{
-    content: "";
-    position: absolute;
-    left: -6px;
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    background: #f5f5f5;
-}
-.heima_product_box .right::before{
-    top: -6px;
-    box-shadow: 0 -2px 2px #d8d8d8 inset;
-}
-.heima_product_box .right::after{
-    bottom: -6px;
-    box-shadow: 0 2px 2px #d8d8d8 inset;
-}
-.heima_product_box .right p{
-    color: #333;
-}
-.heima_product_box.active .right p{
-    color: #fff;
+    font-size: 10px;
 }
 .heima_product_box .right p:first-of-type b{
     font-size: 44px;
-}
-.heima_product_box .right p:first-of-type sub{
-    bottom: 0;
 }
 
 
